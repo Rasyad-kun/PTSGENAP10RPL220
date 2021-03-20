@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/logo"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masuk ke Dropbox"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_google"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/button"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="Masuk dengan Google"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/ic_google" />
+
+    <Button
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/button2"
+        android:layout_gravity="center"
+        android:text="Masuk dengan Apple"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/ic_apple_logo_white" />
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+
+        <View
+            android:layout_width="160dp"
+            android:layout_height="2dp"
+            android:background="@color/button2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="atau"
+            android:paddingHorizontal="10dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/button2"/>
+
+        <View
+            android:layout_width="160dp"
+            android:layout_height="2dp"
+            android:background="@color/button2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/style_et"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="380dp"
+            android:layout_height="55dp"
+            android:padding="15dp"
+            android:background="@android:color/transparent"
+            android:hint="Email"
+            android:inputType="textEmailAddress"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/style_et"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp">
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="380dp"
+            android:layout_height="55dp"
+            android:padding="15dp"
+            android:background="@android:color/transparent"
+            android:hint="Kata sandi"
+            android:inputType="textPassword"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Halaman ini dilindungi oleh reCHAPTCHA dan tunduk pada Kebijakan Privasi dan Ketentuan Layanan Google."
+        android:paddingTop="10dp"/>
+
+    <CheckBox
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="Ingat saya"
+        android:layout_gravity="center"
+        android:paddingHorizontal="3dp"
+        android:layout_marginVertical="10dp"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/buttonlogin"
+        android:layout_gravity="center"
+        android:text="Masuk"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="Lupa kata sandi?"
+        android:layout_gravity="center"
+        android:paddingVertical="10dp"
+        android:textColor="@color/link"/>
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(atau " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="buat akun "
+            android:textColor="@color/link"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=")"/>
+
+    </LinearLayout>
+
+</LinearLayout>
