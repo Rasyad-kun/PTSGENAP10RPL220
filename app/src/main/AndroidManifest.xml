@@ -9,7 +9,8 @@
         android:roundIcon="@android:color/transparent"
         android:supportsRtl="true"
         android:theme="@style/Theme.PTSGENAP10RPL220">
-        <activity android:name=".Profile"></activity>
+        <activity android:name=".DisplayRecyclerView"></activity>
+        <activity android:name=".Profile" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
