@@ -87,6 +87,7 @@ public class MainActivity extends AppCompatActivity {
                 if (email.equals("akhtarrasyad@gmail.com") &&
                 password.equals("akhtar")){
                     Toast.makeText(MainActivity.this, "Sukses Login!", Toast.LENGTH_SHORT).show();
+                    startActivity(new Intent(MainActivity.this, DisplayRecyclerView.class));
                 } else {
                     Toast.makeText(MainActivity.this, "Gagal Login!", Toast.LENGTH_SHORT).show();
                 }
