@@ -62,6 +62,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
                 intent.putExtra("iDeskripsi",gDeskripsi);
                 intent.putExtra("iIcon",bytes);
                 c.startActivity(intent);
+
             }
         });
     }
