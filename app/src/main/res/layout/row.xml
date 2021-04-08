@@ -15,20 +15,20 @@
         <ImageView
             android:layout_width="75dp"
             android:layout_height="75dp"
-            android:id="@+id/tv_Icon"
+            android:id="@+id/tv_icon"
             android:src="@mipmap/ic_launcher"
             />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/tv_Title"
+            android:id="@+id/tv_title"
             android:text="Title"
             android:textSize="22sp"
             android:textColor="#000"
             android:textStyle="bold"
-            android:layout_toRightOf="@+id/tv_Icon"
-            android:layout_toEndOf="@+id/tv_Icon"
+            android:layout_toRightOf="@+id/tv_icon"
+            android:layout_toEndOf="@+id/tv_icon"
             android:layout_marginLeft="10dp"
             android:layout_marginStart="10dp"
             />
@@ -41,12 +41,12 @@
             android:textSize="18sp"
             android:textColor="#a9a9a9a9"
             android:textStyle="bold"
-            android:layout_toRightOf="@+id/tv_Icon"
-            android:layout_toEndOf="@+id/tv_Icon"
+            android:layout_toRightOf="@+id/tv_icon"
+            android:layout_toEndOf="@+id/tv_icon"
             android:layout_marginLeft="10dp"
             android:layout_marginStart="10dp"
             android:layout_marginTop="5dp"
-            android:layout_below="@+id/tv_Title"
+            android:layout_below="@+id/tv_title"
             />
 
     </RelativeLayout>
