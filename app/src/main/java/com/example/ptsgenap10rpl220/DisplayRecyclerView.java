@@ -1,10 +1,16 @@
 package com.example.ptsgenap10rpl220;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -13,11 +19,21 @@ public class DisplayRecyclerView extends AppCompatActivity {
     private RecyclerView recyclerView;
     private Adapter adapter;
     private ArrayList<part> getItem;
+    private ImageView btn_back;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_recycler_view);
+
+        btn_back = findViewById(R.id.btn_back);
+        btn_back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(DisplayRecyclerView.this, MainActivity.class));
+            }
+        });
 
         recyclerView = findViewById(R.id.rvData);
 
