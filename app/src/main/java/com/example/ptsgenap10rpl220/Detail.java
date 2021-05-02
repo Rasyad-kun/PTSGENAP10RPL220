@@ -30,7 +30,6 @@ public class Detail extends AppCompatActivity {
             deskripsi = bundle.getString("hp");
         }
 
-
 //        Intent intent = getIntent();
 //        String title = intent.getStringExtra("title");
 //        detail_title.setText(title);
