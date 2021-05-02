@@ -13,8 +13,8 @@ public class Detail extends AppCompatActivity {
     Bundle bundle;
     int icon;
     String title, deskripsi;
-     ImageView dIcon;
-     TextView dTitle, dDeskripsi;
+    ImageView dIcon;
+    TextView dTitle, dDeskripsi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
