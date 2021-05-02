@@ -15,7 +15,6 @@ import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
-import com.google.android.gms.common.SignInButton;
 import com.google.android.gms.common.api.ApiException;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -84,10 +83,10 @@ public class MainActivity extends AppCompatActivity {
                     return;
                 }
 
-                if (email.equals("akhtarrasyad@gmail.com") &&
-                password.equals("akhtar")){
+                if (email.equals("admin@gmail.com") &&
+                password.equals("admin")){
                     Toast.makeText(MainActivity.this, "Sukses Login!", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(MainActivity.this, DisplayRecyclerView.class));
+                    startActivity(new Intent(MainActivity.this, MainActivity2.class));
                 } else {
                     Toast.makeText(MainActivity.this, "Gagal Login!", Toast.LENGTH_SHORT).show();
                 }
