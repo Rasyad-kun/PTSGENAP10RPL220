@@ -1,10 +1,10 @@
 package com.example.ptsgenap10rpl220;
 
-public class part {
+public class Item {
     private String title, deskripsi;
     private int icon;
 
-    public part(String title, String deskripsi, int icon) {
+    public Item(String title, String deskripsi, int icon) {
         setTitle(title);
         setDeskripsi(deskripsi);
         setIcon(icon);

@@ -11,7 +11,7 @@
         android:theme="@style/Theme.PTSGENAP10RPL220">
         <activity android:name=".Detail"></activity>
         <activity
-            android:name=".DisplayRecyclerView"
+            android:name=".MainActivity2"
             android:parentActivityName=".MainActivity" />
         <activity android:name=".Profile" />
         <activity android:name=".MainActivity">
